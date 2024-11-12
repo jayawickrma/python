@@ -51,6 +51,9 @@
 # # dict_1.popitem()
 # # print(dict_1)       remove last item from the dict_1
 
-x=10
-y=20
-z=x+y
+#checking input
+x=int(input("Enter value"))
+if x % 7==0:
+    print("Divisible by 7") 
+else:
+    print("Not divisible by 7")
